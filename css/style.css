@@ -1,0 +1,129 @@
+html, body {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    overflow-x: hidden;
+    background-color: rgb(255, 195, 85);
+}
+
+.padding-bottom {
+    padding-top: 30px;
+}
+
+
+
+.Header {
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Image-top {
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.Title {
+    font-size: 24pt;
+    margin-left: 30px;
+}
+
+
+
+.Nav {
+    background-color: rgb(82, 82, 82);
+    width: 100%;
+    height: 10vh;
+    margin-top: 20px;
+}
+
+.Summary {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.Summary-item {
+    color: white;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+
+
+.Main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Section {
+    width: 100%;
+    height: 150vh;
+    text-align: center;
+}
+
+.Article {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.Subtitle {
+    margin: 1.7em 0px;
+    font-size: 20pt;
+}
+
+.Image-topic {
+    width: 40%;
+    height: 100%;
+}
+
+.Text-article {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Text-title {
+    font-size: 20pt;
+}
+
+.Text-paragraph {
+    font-size: 15pt;
+}
+
+
+
+.Footer {
+    width: 100%;
+    height: 8vh;
+    margin-top: 60px;
+    background-color: rgb(82, 82, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-text {
+    font-size: 16pt;
+    color: white;
+}
